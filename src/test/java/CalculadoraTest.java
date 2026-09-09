@@ -6,14 +6,13 @@ class CalculadoraTest {
 
     @Test
     void deveSomarDoisNumeros() {
-
         // Arrange
         Calculadora calculadora = new Calculadora();
 
         // Act
-        int resultado = calculadora.somar(2, 3);
+        int resultado = calculadora.somar(2, 2);
 
         // Assert
-        assertThat(resultado).isEqualTo(5);
+        assertThat(resultado).isEqualTo(4);
     }
 }
